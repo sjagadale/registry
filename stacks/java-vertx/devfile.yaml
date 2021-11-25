@@ -94,7 +94,7 @@ components:
           name: '8080-tcp'
           targetPort: 8080
           protocol: http
-      image: quay.io/eclipse/che-java11-maven:next
+      image: registry.redhat.io/codeready-workspaces/plugin-java8-openj9-rhel8
       memoryLimit: 512Mi
       mountSources: true
       volumeMounts:

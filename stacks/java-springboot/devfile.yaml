@@ -17,7 +17,7 @@ starterProjects:
 components:
   - name: tools
     container:
-      image: quay.io/eclipse/che-java11-maven:next
+      image: registry.redhat.io/codeready-workspaces/plugin-java8-openj9-rhel8
       memoryLimit: 768Mi
       mountSources: true
       endpoints:

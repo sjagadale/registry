@@ -34,7 +34,7 @@ starterProjects:
 components:
   - name: dev
     container:
-      image: openliberty/application-stack:gradle-0.2
+      image: registry.redhat.io/codeready-workspaces/plugin-java11-openj9-rhel8
       memoryLimit: 1512Mi
       mountSources: true
       endpoints:
